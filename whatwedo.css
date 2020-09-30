@@ -1,0 +1,103 @@
+body{
+    background-color: #b1c3b8;
+}
+
+.button{
+    background:none;
+    padding: 1em 2em;
+    color:black;
+    border: 0;
+    font-size: 32px;
+    font-family: 'Manjari', sans-serif;
+    margin-left: 600px;
+}
+
+.button:hover{
+    /* background: #333; */
+}
+
+.modal{
+   display: none;
+    position: fixed;
+    z-index:1;
+    left: 0; top:0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    vertical-align: middle;
+}
+
+.modal-content{
+    background-color: white;
+    margin: 20% auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgb(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+    
+}
+
+.closeBtn{
+    color: #ccc;
+    
+    font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+    color:#000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 48px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    width: fit-content;
+    
+}
+
+
+h3{ 
+    text-align: center;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.nav-link{
+    color: black;
+    font-family: 'Manjari', sans-serif;
+    font-size: 26px;
+
+}
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=E3005C');
+    }
+#title{
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color: transparent !important;
+    border: none;
+    font-family: 'Manjari', sans-serif;
+    
+    
+}
+#mission{
+    background-color: transparent !important;
+    border: none;
+    text-align: center;
+    font-family: 'Manjari', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+   
+}
+
+
+
+@keyframes modalopen{
+    from{opacity: 0}
+    to{opacity: 1}
+}

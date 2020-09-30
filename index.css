@@ -1,0 +1,52 @@
+body{background-color: transparent !important;
+    border: transparent;
+}
+
+html{
+    min-height: 100%;
+    min-height: 100%;
+    background-image: url("./assets/home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1{
+    color: #4d7142;
+    font-size: 56px;
+}
+#business{
+    font-family: 'Manjari', sans-serif;
+    background-color: transparent !important;
+    border: transparent;
+    margin-top: 390px;
+    margin-left: 200px;
+    
+   
+}
+.navbar{
+    background-color: transparent !important;
+}
+.nav-link{
+    color: black;
+    font-family: 'Manjari', sans-serif;
+    font-size: 26px;
+
+}
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=E3005C');
+    }
+
+
+#tagline{
+    font-family: 'Manjari', sans-serif;
+    background-color: transparent !important;
+    border: transparent;
+    width: 550px;
+    text-align: center;
+    color: #4d7142;
+    margin-left: 255px;
+    
+   
+}
+
