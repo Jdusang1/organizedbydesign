@@ -10,8 +10,10 @@ body{
 .card{
     background-color: transparent !important;
     border: none;
-    margin-left: 230px;
-    margin-top: 120px;
+    margin: 120px auto; 
+    /* margin-left: 230px;
+    margin-top: 120px; */
+    
     
 }
 
@@ -20,11 +22,14 @@ body{
     font-family: 'Manjari', sans-serif;
     text-decoration: underline;
     font-weight: bolder;
+    padding-left: 50px;
+    margin-top: 25px;
 }
 
 .card-text{
     font-family: 'Manjari', sans-serif;
     font-size: 32px;
+    padding-left: 50px;
     
     
 }
@@ -52,8 +57,7 @@ img{
 }
 .navbar.navbar-6 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=E3005C');
-    }
-
+}
 span{
     font-size: 28px;
 }
