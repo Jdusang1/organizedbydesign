@@ -1,4 +1,5 @@
-body{background-color: transparent !important;
+body{
+    background-color: transparent !important;
     border: transparent;
 }
 
@@ -19,7 +20,7 @@ h1{
     font-family: 'Manjari', sans-serif;
     background-color: transparent !important;
     border: transparent;
-    margin-top: 390px;
+    margin-top: 380px ;
     margin-left: 200px;
     
    
