@@ -4,9 +4,9 @@ body{
 }
 
 html{
+    
     min-height: 100%;
-    min-height: 100%;
-    background-image: url("./assets/home.png");
+    background-image: url("home.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,13 +14,14 @@ html{
 
 h1{
     color: #4d7142;
-    font-size: 56px;
+    font-size: 48px;
 }
 #business{
     font-family: 'Manjari', sans-serif;
     background-color: transparent !important;
     border: transparent;
-    margin-top: 390px;
+    margin-top: 87%;
+    padding-bottom: 0px;
     
     
     
@@ -47,6 +48,8 @@ h1{
     width: 550px;
     text-align: center;
     color: #4d7142;
+    
+    
     
     
    

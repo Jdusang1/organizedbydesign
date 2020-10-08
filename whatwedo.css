@@ -23,30 +23,33 @@ body{
     left: 0; top:0;
     height: 100%;
     width: 100%;
-    overflow: auto;
+    /* overflow: auto; */
     background-color: rgba(0,0,0,0.5);
-    vertical-align: middle;
+    vertical-align: text-top;
+    align-content: center;
 }
 
 .modal-content{
     
     margin: 20% auto;
-    padding: 20px;
-    width: 50%;
+    /* padding: 20px; */
+    width: 60%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgb(0,0,0,0.17);
     animation-name: modalopen;
     animation-duration: 1s;
     background-color:#f9ffed;
     
+    
 }
 
 .modal-header{
     color:#4d7142;
+    justify-content: center;
 }
 
 .closeBtn{
-    color: #ccc;
-    
+    color:black;
+    padding-left: 20px;
     font-size: 30px;
 }
 
@@ -64,10 +67,6 @@ h1{
     color: #f9ffed;
     
 }
-
-/* h2{
-    color: #f9ffed;
-} */
 
 
 h3{ 
@@ -109,6 +108,8 @@ h3{
 
 li{
     color:#4d7142;
+    text-align: center;
+    list-style-type: none;
 
 }
 
