@@ -14,19 +14,18 @@ html{
 
 h1{
     color: #4d7142;
-    font-size: 48px;
+    font-size: 56px;
+    font-weight: bold;
 }
 #business{
     font-family: 'Manjari', sans-serif;
     background-color: transparent !important;
     border: transparent;
-    margin-top: 87%;
-    padding-bottom: 0px;
+    margin-top: 2%;
     
-    
-    
-   
 }
+
+
 .navbar{
     background-color: transparent !important;
 }
@@ -48,10 +47,13 @@ h1{
     width: 550px;
     text-align: center;
     color: #4d7142;
-    
-    
-    
-    
-   
 }
 
+#quote{
+    margin-top: 60%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Manjari', sans-serif;
+    color: #4d7142;
+    text-align: left;
+}

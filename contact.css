@@ -10,9 +10,7 @@ body{
 .card{
     background-color: transparent !important;
     border: none;
-    margin: 120px auto; 
-    /* margin-left: 230px;
-    margin-top: 120px; */
+    margin: 60px auto; 
     
     
 }
@@ -23,7 +21,7 @@ body{
     text-decoration: underline;
     font-weight: bolder;
     padding-left: 50px;
-    margin-top: 25px;
+    margin-top: 55px;
 }
 
 .card-text{
