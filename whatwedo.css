@@ -3,17 +3,20 @@ body{
 }
 
 .button{
+    border: none;
     background:none;
     padding: 1em 2em;
     color:#f9ffed;
     border: 0;
     font-size: 32px;
     font-family: 'Manjari', sans-serif;
+    outline: none;
+   
     
 }
 
 .button:hover{
-    /* background: #333; */
+    
 }
 
 .modal{
@@ -103,6 +106,16 @@ h3{
     
     padding-top: 20px;
    
+}
+#services{
+    font-family: 'Manjari', sans-serif;
+    font-size: 48px;
+    color: #f9ffed;
+}
+
+.modal-footer{
+    justify-content: center;
+    text-align: center;
 }
 
 
