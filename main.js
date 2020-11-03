@@ -7,6 +7,7 @@ closeBtn.addEventListener("click", closeModal);
 window.addEventListener("click", outsideClick)
 
 function openModal() {
+
     modal.style.display = "block";
 }
 
@@ -20,25 +21,24 @@ function outsideClick(e) {
     }
 };
 
-
 var estateModal = document.getElementById("estateModal");
 var estateModalBtn = document.getElementById("modalBtn1");
 var estateCloseBtn = document.getElementsByClassName("closeBtn1")[0];
 
-modalBtn1.addEventListener("click", openModal1);
-closeBtn1.addEventListener("click", closeModal1);
+
+estateModalBtn.addEventListener("click", openModal1);
+estateCloseBtn.addEventListener("click", closeModal1);
 window.addEventListener("click", outsideClick1)
 
+
 function openModal1() {
-    modal.style.display = "block";
+    estateModal.style.display = "block";
 }
-
 function closeModal1() {
-    modal.style.display = "none";
+    estateModal.style.display = "none";
 }
-
 function outsideClick1(e) {
-    if (e.target == modal) {
-        modal.style.display = "none"
+    if (e.target == estateModal) {
+        estateModal.style.display = "none"
     }
 }

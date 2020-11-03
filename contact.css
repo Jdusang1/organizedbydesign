@@ -31,7 +31,11 @@ body{
     
     
 }
-
+h3{
+    font-size: 18px;
+    color: #4d7142;
+    font-weight: bold;
+}
 
 
 img{
@@ -58,4 +62,12 @@ img{
 }
 span{
     font-size: 28px;
+}
+#footer{
+    background-color: #f9ffed;
+    border: transparent;
+    text-align: center;
+    padding: none;
+    font-family: 'Manjari', sans-serif;
+    
 }

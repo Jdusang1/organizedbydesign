@@ -11,7 +11,7 @@ body{
 
 }
 .card{
-    background-color: transparent !important;
+    background-color: transparent ;
     border: none;
     margin-top: 100px;
 }
@@ -41,5 +41,17 @@ img{
     text-align: center;
     margin-top: 10px;
 }
-
+h3{
+    font-size: 18px;
+    color: #4d7142;
+    font-weight: bold;
+}
+#footer{
+    background-color: #f9ffed;
+    border: transparent;
+    text-align: center;
+    padding: none;
+    font-family: 'Manjari', sans-serif;
+    
+}
 

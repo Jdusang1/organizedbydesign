@@ -71,11 +71,25 @@ h1{
     color: #f9ffed;
     
 }
+h3{
+    font-size: 18px;
+    color: #4d7142;
+    font-weight: bold;
+}
 
-
-h3{ 
+h4{ 
     text-align: center;
     color:#4d7142;
+}
+
+#footer{
+    background-color: #f9ffed;
+    border: transparent;
+    text-align: center;
+    padding: none;
+    font-family: 'Manjari', sans-serif;
+    
+    
 }
 .navbar{
     background-color: transparent !important;

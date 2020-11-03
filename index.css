@@ -3,6 +3,16 @@ body{
     border: transparent;
 }
 
+#footer{
+    background-color: #b1c3b8;
+    border: transparent;
+    text-align: center;
+    padding: none;
+    font-family: 'Manjari', sans-serif;
+    color: #f9ffed;
+    
+}
+
 html{
     
     min-height: 100%;
@@ -17,17 +27,25 @@ h1{
     font-size: 56px;
     font-weight: bold;
 }
+h3{
+    font-size: 18px;
+    color: #4d7142;
+    font-weight: bold;
+}
+
+
 #business{
     font-family: 'Manjari', sans-serif;
     background-color: transparent !important;
     border: transparent;
-    margin-top: 2%;
+    margin-top: 15%;
     
 }
 
 
 .navbar{
     background-color: transparent !important;
+    
 }
 .nav-link{
     color: black;
@@ -47,13 +65,14 @@ h1{
     width: 550px;
     text-align: center;
     color: #4d7142;
+    margin-top: 240px;
 }
 
-#quote{
+/* #quote{
     margin-top: 60%;
     background-color: transparent;
     border: none;
     font-family: 'Manjari', sans-serif;
     color: #4d7142;
     text-align: left;
-}
+} */
