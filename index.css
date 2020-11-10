@@ -1,56 +1,93 @@
 body{
-    background-color: transparent !important;
-    border: transparent;
+   height: 100%;
+   position: relative;
 }
-
-#footer{
-    background-color: #b1c3b8;
-    border: transparent;
-    text-align: center;
-    padding: none;
-    font-family: 'Manjari', sans-serif;
+.btn-green{
+    background-color:#4d7142 ;
     color: #f9ffed;
-    
 }
-
-html{
-    
-    min-height: 100%;
-    background-image: url("home.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.card-footer{
+    color: #f9ffed;
 }
-
-h1{
-    color: #4d7142;
-    font-size: 56px;
-    font-weight: bold;
+.card{
+    border: none;
 }
-h3{
-    font-size: 18px;
-    color: #4d7142;
-    font-weight: bold;
-}
-
-
-#business{
+.card-text{
+    font-size: 24px;
     font-family: 'Manjari', sans-serif;
-    background-color: transparent !important;
-    border: transparent;
-    margin-top: 15%;
+}
+
+.footer{
+    background-color: #4d7142;
+    text-align: center;
+    padding-top: 3px;
+    font-family: 'Manjari', sans-serif;
+    padding-bottom: none;
+    margin-bottom: none;
+
+   
+}
+#footer-branding-logo{
+    height: 50px;
+}
+.footerLink{
+    color: #f9ffed !important;
+    font-family: 'Manjari', sans-serif;
+    font-size: 26px; 
+}
+#home-image{
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+}
+#quotes{
+    font-family: 'Manjari', sans-serif;
+    color: #4d7142;
+    font-size: 24px;
+}
+#logo{
+    position: absolute;
+    left: 33%;
+}
+
+h3{
+    font-size: 24px;
+    background-color: !transparent;
+    font-weight: bold;
+}
+h5{
+    font-family: 'Manjari', sans-serif;
+    font-size: 38px;
+    color: #4d7142;
+}
+
+.main{
+    min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+#navbarNav{
+    float: right !important;
+}
+
+.navbar-brand{
     
+    padding: 0;
+    margin: 0;
 }
 
 
-.navbar{
-    background-color: transparent !important;
-    
+.logo{
+    height: 100px;
 }
-.nav-link{
-    color: black;
+.navLink{
+    color: #4d7142;
     font-family: 'Manjari', sans-serif;
     font-size: 26px;
+    float: right;
 
 }
 .navbar.navbar-6 .navbar-toggler-icon {
@@ -58,21 +95,26 @@ h3{
 }
 
 
+
 #tagline{
     font-family: 'Manjari', sans-serif;
     background-color: transparent !important;
     border: transparent;
-    width: 550px;
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: #4d7142; */
+    height: 300px;
     text-align: center;
     color: #4d7142;
-    margin-top: 240px;
+    top:100px;
+    /* position: absolute; */
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    
 }
 
-/* #quote{
-    margin-top: 60%;
-    background-color: transparent;
-    border: none;
-    font-family: 'Manjari', sans-serif;
-    color: #4d7142;
-    text-align: left;
-} */
+#services-card{
+    margin-top: 50px;
+    border: none !important;
+}
+
