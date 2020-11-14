@@ -7,63 +7,206 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
+    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 
-    <link rel="stylesheet" type="text/css" href="contact.css">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar  navbar-expand-lg ">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="whatwedo.html">What We Do</a>
-                </li>
-                <li class="nav-item sign-up">
-                    <a class="nav-link" href="testimonials.html">Testimonials</a>
-                </li>
-                <li class="nav-item sign-up">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Organized Design.png" class="img-responsive logo"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-    </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="card d-flex">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h5 class="card-title">Contact Information</h5>
-                        <p class="card-text">Cindy Cheroske</p>
-                        <p class="card-text">Organizedbydesign970@gmail.com</p>
-                        <p class="card-text">970-209-7263 (Call or Text)</span></p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card-body">
-                            <img src="IMG_5115.jpg" class="card-img rounded-circle" alt="photo of cindy">
 
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link navLink" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="whatwedo.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+    <div class="row">
+        <div class="card">
+            <img src="lamp.png" id="services-banner">
+            <p id="services-title">Contact</p>
+        </div>
+    </div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <h1 id="services-objective">"Serving the Western Slope of Colorado Since 2005"
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-1">
+                <div class="card">
+
+                    <img src="Cindy.jpg" id="contact-img">
+
+                </div>
+
+
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+
+                        <!--Section heading-->
+                        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Cindy</h2>
+                        <!--Section description-->
+                        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not
+                            hesitate
+                            to
+                            contact me directly. I will get back to you as soon as possible.</p>
+
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-9 mb-md-0 mb-5">
+                                <form id="contact-form" name="contact-form" action="contact.php" method="POST">
+
+                                    <!--Grid row-->
+                                    <div class="row">
+
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form_name" name="name" class="form-control">
+                                                <label for="form_name" class="form_control">Your name</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form_email" name="email" class="form-control">
+                                                <label for="form_email" class="form_control">Your email</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+
+                                    </div>
+                                    <!--Grid row-->
+
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="subject" name="subject" class="form-control">
+                                                <label for="form_message" class="">Subject</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+
+                                    <!--Grid row-->
+                                    <div class="row">
+
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+
+                                            <div class="md-form">
+                                                <textarea type="text" id="form_message" name="message" rows="2"
+                                                    class="form-control md-textarea"></textarea>
+                                                <label for="message">Your message</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+
+                                </form>
+
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-green"
+                                        onclick="document.getElementById('contact-form').submit();">Send</a>
+                                </div>
+                                <div class="status"></div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-3 text-center">
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                        <p>Montrose, CO 81401, USA</p>
+                                    </li>
+
+                                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                        <p>+ 01 970 209 7263</p>
+                                    </li>
+
+                                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                        <p>OrganizedbyDesign970@gmail.com</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
 
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-    <div class="fixed-bottom" id="footer">
+    <!--Section: Contact v.2-->
+
+    <div class="footer">
+
         <div class="card-footer">
-            <h3>"Serving the Western Slope of Colorado Since 2005"</h3>
+            <!-- <h3>"Serving the Western Slope of Colorado Since 2005"</h3> -->
+
+            <div class="footer-branding"><a class="footer-branding-logo">
+                    <img src="Organized Design.png" id="footer-branding-logo">
+                </a></div>
+            <ul class="navbar-nav">
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="whatwedo.html">Services</a>
+                </li>
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
         </div>
 
+
     </div>
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -73,7 +216,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/script" src="contact.js"></script>
+
+
 
 </body>
 

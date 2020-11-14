@@ -1,10 +1,15 @@
-body{
+/* body{
    height: 100%;
    position: relative;
+} */
+.btn{
+    align-content: center !important;
+    justify-content: center !important;
 }
 .btn-green{
     background-color:#4d7142 ;
     color: #f9ffed;
+    
 }
 .card-footer{
     color: #f9ffed;
@@ -17,6 +22,18 @@ body{
     font-family: 'Manjari', sans-serif;
 }
 
+#contact-img{
+    height: 400px;
+    width: 400px;
+}
+.contact-text{
+    font-size: 36px;
+    font-family: 'Manjari', sans-serif;
+    color: #4d7142;
+}
+.fas{
+    color: #4d7142;
+}
 .footer{
     background-color: #4d7142;
     text-align: center;
@@ -48,7 +65,9 @@ body{
 #logo{
     position: absolute;
     left: 33%;
+    font-style: bold;
 }
+
 
 h3{
     font-size: 24px;
@@ -60,13 +79,27 @@ h5{
     font-size: 38px;
     color: #4d7142;
 }
+.logo{
+    height: 100px;
+}
+
+
 
 .main{
     min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 100px; /* height of your footer */
+    /* overflow: hidden;
+    display: block;
+    position: relative;
+    flex-wrap: wrap; */
+    padding-bottom: 100px; /* height of your footer */
+}
+
+#mission{
+    margin-top: 60px;
+    font-family: 'Manjari', sans-serif;
+    font-size: 28px;
+    color: #4d7142;
+    text-align: center;
 }
 
 #navbarNav{
@@ -80,9 +113,7 @@ h5{
 }
 
 
-.logo{
-    height: 100px;
-}
+
 .navLink{
     color: #4d7142;
     font-family: 'Manjari', sans-serif;
@@ -100,21 +131,122 @@ h5{
     font-family: 'Manjari', sans-serif;
     background-color: transparent !important;
     border: transparent;
-    /* border-width: 4px;
-    border-style: solid;
-    border-color: #4d7142; */
     height: 300px;
     text-align: center;
     color: #4d7142;
     top:100px;
-    /* position: absolute; */
     padding-bottom: 50px;
     margin-bottom: 100px;
     
+}
+#services{
+
+    margin-top: 100px;
+    height: 250px;
+    background-color: #4d7142;
+    opacity: 55%;
+}
+.services-btn{
+    border: none;
+    background-color: transparent;
+}
+#services-text{
+    font-size: 36px;
+    font-family: 'Manjari', sans-serif;
+    color: #f9ffed;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #services-card{
     margin-top: 50px;
     border: none !important;
+    
 }
+#services-banner{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#services-list{
+    color: #f9ffed;
+    list-style-type: disc;
+    font-size: 24px;
+    font-family: 'Manjari', sans-serif;
+    
+    
+    justify-content: space-around;
+    
+}
+#testimonial-id{
+    background: transparent;
+    color: #4d7142;
+    border: none;
+}
+ul{
+    justify-content: space-between;
+}
+#services-objective{
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+    color: #4d7142;
+    font-size: 36px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /* border: solid;
+    border-width: ; */
+    
+}
+#services-photo-1{
+    height: 400px;
+}
+
+#services-question{
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+    color: #4d7142;
+    font-size: 36px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+#services-title{
+    font-family: 'Manjari', sans-serif;
+    font-size: 52px;
+    color: #f9ffed;
+    position: absolute;
+    left: 42%;
+    top: 40%;
+}
+
+.testimonial-card{
+   
+}
+#testimonial-id{
+    font-family: 'Manjari', sans-serif;
+    font-size: 16px;
+}
+#testimonial-text{
+
+    font-size: 24px;
+    font-family: 'Manjari', sans-serif;
+    margin-top: 50px;
+}
+
+#page-breaks{
+    border-top: 1px solid black;
+    width: 65%;
+    text-align: center;
+}
+
+#testimonial-objective{
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+    color: #4d7142;
+    font-size: 36px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+   
+}
+
 

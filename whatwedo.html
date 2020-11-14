@@ -9,140 +9,160 @@
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
     <script src="jquery-3.5.1.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="whatwedo.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="whatwedo.html">What We Do</a>
-                </li>
-                <li class="nav-item sign-up">
-                    <a class="nav-link" href="testimonials.html">Testimonials</a>
-                </li>
-                <li class="nav-item sign-up">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Organized Design.png" class="img-responsive logo"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link navLink" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="whatwedo.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
     </nav>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="card">
+                <img src="lamp.png" id="services-banner">
+                <p id="services-title">Services</p>
+            </div>
+        </div>
 
-        <div>
-            <div class="row">
-                <div class="col-5 offset-2 d-flex">
-                    <div class="card" id="title">
-                        <h1>
-                            Organized By Design
-                        </h1>
 
-                    </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <h1 id="services-objective">"Together we'll create a personlized organization plan that fits your
+                        lifestyle!"
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-1">
+                <div class="card">
+                    <img src="services-photo-1.png" id="services-photo-1">
+                </div>
+
+            </div>
+            <div class="col-5 offset-1">
+                <h1 id="mission">
+                    Our responsibility is handling the havoc and
+                    headaches that clutter and disorder may bring to your personal or professional life. We'll reclaim
+                    valuable space and gain a peaceful productive home or office.
+                </h1>
+                <div class="card-footer services-btn text-center">
+                    <a href="contact.html" class="btn btn-green">Contact</a>
                 </div>
             </div>
-            <div>
-                <div class="row">
-                    <div class="col justify-content-center align-self-center d-flex">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card" id="services">
+                    <h2 id="services-text">Organizational Servics For All Your Needs</h2>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="services-list">
+                                <li>Kitchen, Pantty, Bedrooms, Bathrooms, Closets and Playrooms</li>
+                                <li>Home Office includeing Paperwork Organization and Management
 
-                        <div class="card" id="mission">
-                            <h2>Our responsibility is handling the havoc and
-                                headaches that clutter and disorder may
-                                bring to your personal or professional life. We'll reclaim valuable space and gain a
-                                peaceful productive home or office.
-                                <br><br>In 2012 I was chosen to join the organizing team on the A&E
-                                show “Hoarders”.
-                                <br><br>Together we'll create a personlized organization plan that fits
-                                your
-                                lifestyle!</h2>
+
+                            </ul>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col justify-content-center align-self-center d-flex">
-                    <h1 id="services">Services</h1>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col justify-content-center d-flex">
-                    <button id="modalBtn" class="button justify-content-center align-self-center d-flex">Home
-                        Organization</button>
-
-                    <div id="homeModal" class="modal modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-
-                                <h2>Complete Home and Office Organization</h2>
-
-                                <span class="closeBtn">&times;</span>
-                            </div>
-                            <div class="modal-body">
-                                <ul>
-                                    <li>Kitchen, Pantry, Bedrooms, Bathrooms, Closets, and Playrooms</li>
-                                    <li>Home Office including Paperwork Organization and Management</li>
-                                    <li>Basement, Garage decluttering and space utilization</li>
-                                    <li>Move-ins and outs, Combined / Blended Households</li>
-                                    <li>Chronic dissorganization expertise, clutter elimination and coaching</li>
-                                    <!-- <li>Specializing in helping families who live out of state or have aging parents
-                                        that would like to downsize and relocate possesions.</li>
-                                    <li>Organize and conduct Estate Sales while handling any donational items, or
-                                        removal of all belongings with the goal of clearing homes entirely</li> -->
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <h4>Contact For More Info!</h4>
-                            </div>
-
+                        <div class="col">
+                            <ul id="services-list">
+                                <li>Move-ins and outs, Combined/Blended Households</li>
+                                <li>Chronic Disorganization Expertise, Clutter Elimination and Coaching</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul id="services-list">
+                                <li>Basement, Garage Decluttering and Space Utilization</li>
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <h1 id="services-objective">"Specializing in helping families who live out of state or have
+                        aging
+                        parents, take on the daunting task of Estate Management."
+                    </h1>
+                </div>
 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5 offset-1">
+                <h1 id="mission">
+                    Our goal is to teach you skills and techniques to get you more organized so you can have more
+                    time
+                    for what matters to you in life. Together we will conquer your clutter and leave you with a
+                    peaceful, productive space!
 
+                </h1>
+                <div class="card-footer services-btn text-center">
+                    <a href="contact.html" class="btn btn-green">Contact</a>
+                </div>
+            </div>
+            <div class="col-4 offset-1">
+                <div class="card">
+                    <img src="services-photo-1.png" id="services-photo-1">
+                </div>
 
+            </div>
 
-                    <!-- </div> -->
-                    <div class="col-4 justify-content-center d-flex">
-                        <button id="modalBtn1" class="button">Estate Sales</button>
-                        <div id="estateModal" class="modal modal-dialog-centered modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-
-                                    <h2>Estate Sales Management</h2>
-
-                                    <span class="closeBtn1">&times;</span>
-                                </div>
-                                <div class="modal-body">
-                                    <ul>
-                                        <!-- <li>Kitchen, Pantry, Bedrooms, Bathrooms, Closets, and Playrooms</li>
-                                    <li>Home Office including Paperwork Organization and Management</li>
-                                    <li>Basement, Garage decluttering and space utilization</li>
-                                    <li>Move-ins and outs, Combined / Blended Households</li>
-                                    <li>Chronic dissorganization expertise, clutter elimination and coaching</li> -->
-                                        <li>Specializing in helping families who live out of state or have aging parents
-                                            that would like to downsize and relocate possesions.</li>
-                                        <li>Organize and conduct Estate Sales while handling any donational items, or
-                                            removal of all belongings with the goal of clearing homes entirely</li>
-                                    </ul>
-                                </div>
-                                <div class="modal-footer">
-                                    <h4>Contact For More Info!</h4>
-                                </div>
-
-                            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" id="services">
+                    <h2 id="services-text">Estate Management</h2>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="services-list">
+                                <li>Organize and conduct Estate Sales</li>
+                                <li>Removal of all belongings with the goal of clearing homes entirely</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul id="services-list">
+                                <li>Estate Liquidation</li>
+                                <li>Knowledgaeable Antique Evaluation</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul id="services-list">
+                                <li>Handling of any and all donational items</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -150,29 +170,65 @@
         </div>
     </div>
 
-    <div class="card" id="footer">
-        <div class="card-footer ">
-            <h3>"Serving the Western Slope of Colorado Since 2005"</h3>
-        </div>
+    <div class="row">
+        <div class="col-8 offset-2 justify-content-center">
+            <div class="card">
+                <div class="card-title">
+                    <h1 id="services-question">Ready to tackle your unorganized areas and develop systems that will
+                        work
+                        for your unique needs?
+                    </h1>
+                    <div class="card-body text-center">
+                        <a href="contact.html" class="btn btn-green">Contact</a>
+                    </div>
+                </div>
 
+            </div>
+
+        </div>
     </div>
 
+    <div class="footer">
+        <div class="card-footer">
+            <!-- <h3>"Serving the Western Slope of Colorado Since 2005"</h3> -->
+
+            <div class="footer-branding"><a class="footer-branding-logo">
+                    <img src="Organized Design.png" id="footer-branding-logo">
+                </a></div>
+            <ul class="navbar-nav">
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="whatwedo.html">Services</a>
+                </li>
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </div>
 
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 
-    <script src="main.js"></script>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
 </body>
 
 

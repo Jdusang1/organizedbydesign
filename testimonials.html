@@ -8,42 +8,72 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="testimonials.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="whatwedo.html">What We Do</a>
-                </li>
-                <li class="nav-item sign-up">
-                    <a class="nav-link" href="testimonials.html">Testimonials</a>
-                </li>
-                <li class="nav-item sign-up">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Organized Design.png" class="img-responsive logo"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link navLink" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="whatwedo.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
     </nav>
-    <div class="container-fluid">
+    <div class="row">
+        <div class="card">
+            <img src="lamp.png" id="services-banner">
+            <p id="services-title">Testimonials</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <h1 id="testimonial-objective">A Reflection from Our Customers!
+                </h1>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- <div>
+        <p id="page-breaks">&nbsp;</p>
+    </div> -->
+    <div class="container-fluid main">
         <div class="row">
-            <div class="col d-flex justify-content-around">
-                <div class=" card" style="width: 18rem;">
-                    <img src="toyroom.jpg" alt="orgainzed childrens playroom" id="photo-1">
-                    <div class="card-body">
-                        <h5 class="card-title">Testimonial</h5>
-                        <p class="card-text">"Cindy helped me organize our kids' playroom. It had been an eyesore for
+            <div class="col-4 offset-4">
+                <div class="card">
+                    <img src="kids-room.png" id="services-photo-1">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="card testimonial-card">
+                        <h4 id="testimonial-text">
+                            "Cindy helped me organize our kids' playroom. It had been an eyesore for
                             years. I was embarrassed for people see it when they came over. Cindy was so helpful in the
                             decluttering process."
 
@@ -56,81 +86,122 @@
 
                             "Her pricing was very reasonable, and worth every penny!"
 
-                            Kris F.</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex justify-content-around">
-                <div class=" card" style="width: 18rem;">
-                    <img src="garage.jpg" alt="clean organized garage" id="photo-2">
-                    <div class="card-body">
-                        <h5 class="card-title">Testimonial</h5>
-                        <p class="card-text">I recently moved from Denver to Grand Junction and felt so overwhelmed by
-                            all of the things I've accumulated over the years. It was to the point I just couldn't dig
-                            into it all by myself so I did nothing and it was depressing. I found Cindy, she organized a
-                            huge section of items for me to sell and completely organized my garage and parts in my
-                            home. I now know what all I have and can get rid of a ton of stuff, I can breathe again! I
-                            highly highly recommend Cindy and will personally talk with someone if desired. Just hire
-                            her! She's Awesome!
-
-                            Linda Glader</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex justify-content-around">
-                <div class=" card" style="width: 18rem;">
-                    <img src="FB_IMG_1583348498209.jpg" alt="clean organized garage" id="photo-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Testimonial</h5>
-                        <p class="card-text">We are writing to thank you for the excellent job you did from start to
-                            finish handling our estate sale. When you came to our house, we were impressed by your
-                            extensive knowledge of everything from furniture to the collectible antiques. Your
-                            experience and trustworthy nature put us as ease, and we knew that you were the right
-                            company for us. As our parents sincerely needed help with the liquidation of their estate,
-                            it was most important to us to have an honest person handling the liquidation.
-
-                            We appreciate the prompt manner in which you and your staff combed through years of storage,
-                            and the home to set up the sale. The estate sale was a complete success because of your
-                            professionalism, experience, and resources. We believe your use of social media, and
-                            personal contacts to attract buyers and dealers was beneficial and substantially increased
-                            the number of visitors to the sale.
-
-                            It was a pleasure doing business with your company. If a future potential client would like
-                            to speak to someone you’ve done and estate sale for, please have them contact us.
-
-                            Our thanks to you and your team; we are grateful for all that you did and we will certainly
-                            recommend you to those we know when the need to liquidate their estate arises.
 
 
-                            Sincerely,
+                        </h4>
 
-                            Carolyn D
-                        </p>
 
+                        <div class="card-footer" id="testimonial-id">
+                            <h1>Kris F.</h1>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-4 offset-4">
+                <div class="card">
+                    <img src="garage.jpg" id="services-photo-1">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <h4 id="testimonial-text">
+                        I recently moved from Denver to Grand Junction and felt so overwhelmed by
+                        all of the things I've accumulated over the years. It was to the point I just couldn't dig
+                        into it all by myself so I did nothing and it was depressing. I found Cindy, she organized a
+                        huge section of items for me to sell and completely organized my garage and parts in my
+                        home. I now know what all I have and can get rid of a ton of stuff, I can breathe again! I
+                        highly highly recommend Cindy and will personally talk with someone if desired. Just hire
+                        her! She's Awesome!
+
+
+                    </h4>
+                    <div class="card-footer" id="testimonial-id">
+                        <h1>Linda Glader.</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-4">
+                <div class="card">
+                    <img src="estate-sale.png" id="services-photo-1">
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 offset-1">
+                <h4 id="testimonial-text">
+                    We are writing to thank you for the excellent job you did from start to
+                    finish handling our estate sale. When you came to our house, we were impressed by your
+                    extensive knowledge of everything from furniture to the collectible antiques. Your
+                    experience and trustworthy nature put us as ease, and we knew that you were the right
+                    company for us. As our parents sincerely needed help with the liquidation of their estate,
+                    it was most important to us to have an honest person handling the liquidation.
+
+                    We appreciate the prompt manner in which you and your staff combed through years of storage,
+                    and the home to set up the sale. The estate sale was a complete success because of your
+                    professionalism, experience, and resources. We believe your use of social media, and
+                    personal contacts to attract buyers and dealers was beneficial and substantially increased
+                    the number of visitors to the sale.
+
+                    It was a pleasure doing business with your company. If a future potential client would like
+                    to speak to someone you’ve done and estate sale for, please have them contact us.
+
+                    Our thanks to you and your team; we are grateful for all that you did and we will certainly
+                    recommend you to those we know when the need to liquidate their estate arises.
+
+
+                    Sincerely,
+
+
+
+
+                </h4>
+                <div class="card-footer" id="testimonial-id">
+                    <h1>Carolyn D</h1>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="footer">
+    </div>
+
+    <div class="footer">
+
         <div class="card-footer">
-            <h3>"Serving the Western Slope of Colorado Since 2005"</h3>
+            <!-- <h3>"Serving the Western Slope of Colorado Since 2005"</h3> -->
+
+            <div class="footer-branding"><a class="footer-branding-logo">
+                    <img src="Organized Design.png" id="footer-branding-logo">
+                </a></div>
+            <ul class="navbar-nav">
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="whatwedo.html">Services</a>
+                </li>
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item footerLink">
+                    <a class="nav-link footerLink" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
         </div>
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script src="main.js"></script>
 
 </body>
 
